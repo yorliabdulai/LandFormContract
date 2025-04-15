@@ -1,0 +1,25 @@
+{
+  "name": "landform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.4",
+    "@types/recharts": "^2.0.1",
+    "fs-extra": "^11.3.0",
+    "recharts": "^2.15.2",
+    "viem": "^2.25.0",
+    "wagmi": "^2.14.16"
+  }
+}
