@@ -4,7 +4,7 @@ async function main() {
   const LandForm = await hre.ethers.getContractFactory("LandForm");
   const contract = await LandForm.deploy({
     gasPrice: hre.ethers.parseUnits("1", "gwei"),
-    gasLimit: 3000000
+    gasLimit: 5000000
   });
 
   await contract.waitForDeployment();
